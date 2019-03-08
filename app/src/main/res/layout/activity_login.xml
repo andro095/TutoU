@@ -88,10 +88,10 @@
         <ImageButton
             android:id="@+id/imageButton3"
             android:layout_width="50dp"
-            android:layout_marginLeft="1dp"
             android:layout_height="48dp"
             android:layout_gravity="center_vertical"
-            android:background="@color/white"
+            android:layout_marginLeft="1dp"
+            android:background="@android:color/white"
             android:contentDescription="@string/ImageDescrip"
             app:srcCompat="@drawable/canvas"
             tools:srcCompat="@drawable/canvas" />
