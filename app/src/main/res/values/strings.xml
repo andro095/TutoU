@@ -31,4 +31,10 @@
     <string name="Create_an_acount">Crea una cuenta</string>
     <string name="Select_schedule">Seleccione un horario</string>
     <string name="Create_user">Cree su Usuario</string>
+    <string name="Name">Nombre</string>
+    <string name="surname">Apellido</string>
+    <string name="e_mail">E-mail</string>
+    <string name="carnet">Carnet</string>
+    <string name="user_name">Nombre de Usuario</string>
+    <string name="create">Crear</string>
 </resources>
