@@ -1,4 +1,4 @@
-package com.example.uvg_horario
+package com.example.uvg_horario.Fragments
 
 import android.content.Context
 import android.net.Uri
@@ -7,6 +7,7 @@ import android.support.v4.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import com.example.uvg_horario.R
 
 
 // TODO: Rename parameter arguments, choose names that match
@@ -17,13 +18,13 @@ private const val ARG_PARAM2 = "param2"
 /**
  * A simple [Fragment] subclass.
  * Activities that contain this fragment must implement the
- * [BlankFragment3.OnFragmentInteractionListener] interface
+ * [BlankFragment2.OnFragmentInteractionListener] interface
  * to handle interaction events.
- * Use the [BlankFragment3.newInstance] factory method to
+ * Use the [BlankFragment2.newInstance] factory method to
  * create an instance of this fragment.
  *
  */
-class BlankFragment3 : Fragment() {
+class BlankFragment2 : Fragment() {
     // TODO: Rename and change types of parameters
     private var param1: String? = null
     private var param2: String? = null
@@ -40,7 +41,7 @@ class BlankFragment3 : Fragment() {
     override fun onCreateView(inflater: LayoutInflater, container: ViewGroup?,
                               savedInstanceState: Bundle?): View? {
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_blank_fragment3, container, false)
+        return inflater.inflate(R.layout.fragment_ciencia, container, false)
     }
 
     // TODO: Rename method, update argument and hook method into UI event
@@ -85,12 +86,12 @@ class BlankFragment3 : Fragment() {
          *
          * @param param1 Parameter 1.
          * @param param2 Parameter 2.
-         * @return A new instance of fragment BlankFragment3.
+         * @return A new instance of fragment BlankFragment2.
          */
         // TODO: Rename and change types and number of parameters
         @JvmStatic
         fun newInstance(param1: String, param2: String) =
-                BlankFragment3().apply {
+                BlankFragment2().apply {
                     arguments = Bundle().apply {
                         putString(ARG_PARAM1, param1)
                         putString(ARG_PARAM2, param2)

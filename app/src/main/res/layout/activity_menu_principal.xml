@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".menu_principal">
+    tools:context=".Principal.menu_principal">
 
     <LinearLayout
         android:layout_width="0dp"
@@ -43,7 +43,7 @@
 
         <fragment
             android:id="@+id/fragment"
-            android:name="com.example.uvg_horario.BlankFragment"
+            android:name="com.example.uvg_horario.Fragments.BlankFragment"
             android:layout_width="match_parent"
             android:layout_height="535dp" />
 

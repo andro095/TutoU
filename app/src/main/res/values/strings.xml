@@ -28,4 +28,7 @@
     <string name="Not">Notificaciones</string>
     <string name="Tuto">Mis Tutorias</string>
     <string name="Hora">Mi Horario</string>
+    <string name="Create_an_acount">Crea una cuenta</string>
+    <string name="Select_schedule">Seleccione un horario</string>
+    <string name="Create_user">Cree su Usuario</string>
 </resources>

@@ -1,15 +1,13 @@
-package com.example.uvg_horario
+package com.example.uvg_horario.Fragments
 
 import android.content.Context
 import android.net.Uri
 import android.os.Bundle
 import android.support.v4.app.Fragment
-import android.text.style.StyleSpan
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import android.widget.TextView
-import kotlinx.android.synthetic.main.activity_login.*
+import com.example.uvg_horario.R
 
 
 // TODO: Rename parameter arguments, choose names that match
@@ -20,13 +18,13 @@ private const val ARG_PARAM2 = "param2"
 /**
  * A simple [Fragment] subclass.
  * Activities that contain this fragment must implement the
- * [Schedule_selection.OnFragmentInteractionListener] interface
+ * [BlankFragment.OnFragmentInteractionListener] interface
  * to handle interaction events.
- * Use the [Schedule_selection.newInstance] factory method to
+ * Use the [BlankFragment.newInstance] factory method to
  * create an instance of this fragment.
  *
  */
-class Schedule_selection : Fragment() {
+class BlankFragment : Fragment() {
     // TODO: Rename and change types of parameters
     private var param1: String? = null
     private var param2: String? = null
@@ -38,14 +36,12 @@ class Schedule_selection : Fragment() {
             param1 = it.getString(ARG_PARAM1)
             param2 = it.getString(ARG_PARAM2)
         }
-        var textView = (R.id.textView2) as TextView
-        val stringtext = textView.text
     }
 
     override fun onCreateView(inflater: LayoutInflater, container: ViewGroup?,
                               savedInstanceState: Bundle?): View? {
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_schedule_selection, container, false)
+        return inflater.inflate(R.layout.fragment_blank, container, false)
     }
 
     // TODO: Rename method, update argument and hook method into UI event
@@ -90,12 +86,12 @@ class Schedule_selection : Fragment() {
          *
          * @param param1 Parameter 1.
          * @param param2 Parameter 2.
-         * @return A new instance of fragment Schedule_selection.
+         * @return A new instance of fragment BlankFragment.
          */
         // TODO: Rename and change types and number of parameters
         @JvmStatic
         fun newInstance(param1: String, param2: String) =
-                Schedule_selection().apply {
+                BlankFragment().apply {
                     arguments = Bundle().apply {
                         putString(ARG_PARAM1, param1)
                         putString(ARG_PARAM2, param2)

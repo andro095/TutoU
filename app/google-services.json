@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "168097753820",
+    "firebase_url": "https://proyectoprueba-e5386.firebaseio.com",
+    "project_id": "proyectoprueba-e5386",
+    "storage_bucket": "proyectoprueba-e5386.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:168097753820:android:97bff9cca6f0682c",
+        "android_client_info": {
+          "package_name": "com.example.uvg_horario"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "168097753820-3strgimrjqqoou7nkk7d0cj47tbrfatq.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.uvg_horario",
+            "certificate_hash": "649dc1f19e10d0463276394359ae1c5adf00b518"
+          }
+        },
+        {
+          "client_id": "168097753820-ii6h5kv4dc10f90f7qlvrmb67i2ibjrb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBrrN0KAb3B71XEkSTfT0l3mJFOJoSdzGY"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "168097753820-ii6h5kv4dc10f90f7qlvrmb67i2ibjrb.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
