@@ -25,4 +25,5 @@
     <string name="mis_tutorias">Mis tutorias</string>
     <string name="notificaciones">Notificaciones</string>
     <string name="mi_horario">Mi horario</string>
+    <string name="Select_schedule"><b>Seleccione un horario</b></string>
 </resources>
